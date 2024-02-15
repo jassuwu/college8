@@ -116,8 +116,6 @@ The Windows Registry is structured similarly to the Windows directory/subdirecto
 
 To access the registry on your own system, you can use the built-in Windows utility ‘regedit’. Simply type ‘regedit’ into the search window and click on it to open the registry editor. This allows you to view and modify the registry structure and values. However, caution should be exercised when making changes to the registry due to its critical role in system configuration.
 
-Sure, here's a summarized version of the content in a digestible format:
-
 ## Windows Registry Forensics
 
 1. **Network List Profiles**: The registry at `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles` contains a list of GUIDs of wireless access points the machine has been connected to, including the SSID name and the date last connected.
