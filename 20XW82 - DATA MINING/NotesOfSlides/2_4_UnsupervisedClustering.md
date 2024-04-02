@@ -29,7 +29,7 @@ Historically, clustering has been considered synonymous with unsupervised learni
 
 1. **Exclusive Clustering**: K-means
 2. **Overlapping Clustering**: Fuzzy C-means
-3. **Hierarchical Clustering**: Agglometric clustering, divisive clustering
+3. **Hierarchical Clustering**: Agglomerative clustering, divisive clustering
 4. **Probabilistic Clustering**: Mixture of Gaussian models
 
 # Weaknesses of K-Means
