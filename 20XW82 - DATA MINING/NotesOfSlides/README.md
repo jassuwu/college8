@@ -1,6 +1,6 @@
 # what is this
 
-A more readable Data Mining `exam prep` resource. Generated in assistance with `GPT-4`.
+A more readable Data Mining `exam prep` resource. Generated in assistance with `GPT-4`. Might contain `halluces` 😩.
 
 # chronological order of the slides
 
@@ -17,3 +17,8 @@ A more readable Data Mining `exam prep` resource. Generated in assistance with `
 ## CA2 stuff
 
 2. [2_2_Ensemble](./2_2_Ensemble.md)
+3. [2_3_BaggingAndBoosting](./2_3_BaggingAndBoosting.md)
+4. [2_4_UnsupervisedClustering](./2_4_UnsupervisedClustering.md)
+5. [2_5_HierarchicalAndDensityClustering](./2_5_HierarchicalAndDensityClustering.md)
+6. [2_6_AgglomerativeAndSpectralClustering](./2_6_AgglomerativeAndSpectralClustering.md)
+7. [2_7_StreamTimeSeriesSequencePart1](./2_7_StreamTimeSeriesSequencePart1.md)
