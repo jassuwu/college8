@@ -22,3 +22,4 @@ A more readable Data Mining `exam prep` resource. Generated in assistance with `
 5. [2_5_HierarchicalAndDensityClustering](./2_5_HierarchicalAndDensityClustering.md)
 6. [2_6_AgglomerativeAndSpectralClustering](./2_6_AgglomerativeAndSpectralClustering.md)
 7. [2_7_StreamTimeSeriesSequencePart1](./2_7_StreamTimeSeriesSequencePart1.md)
+8. [2_8_SequenceMining](./2_8_SequenceMining.md)
