@@ -110,3 +110,45 @@ Real-world data is often "dirty" and needs to be cleaned before it can be used e
 - Data discrepancy detection involves using metadata (e.g., domain, range, dependency, distribution), checking uniqueness rule, consecutive rule and null rule, and using commercial tools.
 - Data scrubbing uses simple domain knowledge to detect errors and make corrections.
 - Data auditing involves analyzing data to discover rules and relationships to detect violators.
+
+## Data Integration
+
+- **Data Integration**: Combines data from multiple sources into a coherent store.
+- **Schema Integration**: Integrates metadata from different sources. For example, `A.cust-id` could be equivalent to `B.cust-#`.
+- **Entity Identification Problem**: Identifies real-world entities from multiple data sources. For example, "Bill Clinton" is the same entity as "William Clinton".
+- **Data Value Conflicts**: Detects and resolves conflicts where attribute values from different sources are different for the same real-world entity. This could be due to different representations or scales (e.g., metric vs. British units).
+
+### Handling Redundancy in Data Integration
+
+- **Redundant Data**: Often occurs when integrating multiple databases.
+- **Object Identification**: The same attribute or object may have different names in different databases.
+- **Derivable Data**: One attribute may be a "derived" attribute in another table, e.g., annual revenue.
+- **Redundant Attributes**: May be detected by correlation analysis.
+- **Careful Integration**: Helps reduce/avoid redundancies and inconsistencies and improve mining speed and quality.
+
+## Chi-Square Example
+
+- In notes.
+- In [slides](https://docs.google.com/presentation/d/1ektXf3faLX2MM9OWaqNTt2ks69-AHnL0/edit#slide=id.p37).
+
+## Data Transformation
+
+- **Smoothing**: Removes noise from data.
+- **Aggregation**: Summarization of data.
+- **Generalization**: Climbing up the concept hierarchy.
+- **Normalization**: Scaling data to fall within a small, specified range.
+- **Attribute/Feature Construction**: New attributes are constructed from the given ones.
+
+### Normalization Techniques
+
+[Slides](https://docs.google.com/presentation/d/1ektXf3faLX2MM9OWaqNTt2ks69-AHnL0/edit#slide=id.p42) for formulae.
+
+1. **Min-Max Normalization**: Scales data to a specified range, [new_minA, new_maxA]. For example, an income range of $12,000 to $98,000 can be normalized to [0.0, 1.0]. Then, $73,000 is mapped to a value within this range.
+
+2. **Z-Score Normalization**: Data is scaled based on the mean (μ) and standard deviation (σ). For example, if μ = 54,000 and σ = 16,000, the data is scaled accordingly.
+
+3. **Normalization by Decimal Scaling**: Data is scaled based on the maximum absolute value of the data. The data is scaled to a decimal place determined by j, which is the smallest integer such that Max(|ν’|) < 1.
+
+---
+
+Continues with **data reduction** and more in the [slides](https://docs.google.com/presentation/d/1ektXf3faLX2MM9OWaqNTt2ks69-AHnL0/edit#slide=id.p43).
