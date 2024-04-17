@@ -1,3 +1,5 @@
+# Chapter 2 - Data preprocessing
+
 ## Why Data Preprocessing?
 
 Real-world data is often "dirty" and needs to be cleaned before it can be used effectively for data analysis or machine learning. Here are the three main types of "dirty" data:
@@ -70,10 +72,6 @@ Real-world data is often "dirty" and needs to be cleaned before it can be used e
 5. **Data Discretization**:
    - Part of data reduction with particular importance for numerical data
 
----
-
-# Page 21
-
 ## Graphic Displays of Basic Statistical Descriptions
 
 1. **Histogram**: A graphical representation of the distribution of a dataset.
@@ -82,3 +80,33 @@ Real-world data is often "dirty" and needs to be cleaned before it can be used e
 4. **Quantile-Quantile (Q-Q) Plot**: Graphs the quantiles of one univariate distribution against the corresponding quantiles of another.
 5. **Scatter Plot**: Each pair of values is a pair of coordinates and plotted as points in the plane.
 6. **Loess (Local Regression) Curve**: Adds a smooth curve to a scatter plot to provide better perception of the pattern of dependence.
+
+## Data Cleaning
+
+### Importance
+
+- Data cleaning is one of the biggest problems in data warehousing.
+- Tasks include filling in missing values, identifying outliers, smoothing out noisy data, correcting inconsistent data, and resolving redundancy caused by data integration.
+
+### Handling Missing Data
+
+- Data may not always be available due to various reasons such as equipment malfunction, inconsistency with other recorded data, data not entered due to misunderstanding, etc.
+- Missing data may need to be inferred.
+- Methods to handle missing data include ignoring the tuple, filling in the missing value manually, or automatically with a global constant, the attribute mean, the attribute mean for all samples belonging to the same class, or the most probable value.
+
+### Handling Noisy Data
+
+- Noise is a random error or variance in a measured variable.
+- Incorrect attribute values may be due to faulty data collection instruments, data entry problems, data transmission problems, technology limitation, inconsistency in naming convention, etc.
+- Methods to handle noisy data include binning, regression, clustering, and combined computer and human inspection.
+
+### Binning for Data Smoothing
+
+- Binning methods include equal-width (distance) partitioning and equal-depth (frequency) partitioning.
+- After partitioning the data into bins, the data can be smoothed by bin means, bin median, or bin boundaries.
+
+### Data Cleaning as a Process
+
+- Data discrepancy detection involves using metadata (e.g., domain, range, dependency, distribution), checking uniqueness rule, consecutive rule and null rule, and using commercial tools.
+- Data scrubbing uses simple domain knowledge to detect errors and make corrections.
+- Data auditing involves analyzing data to discover rules and relationships to detect violators.
