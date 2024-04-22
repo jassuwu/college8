@@ -17,7 +17,7 @@ In computer forensics, triaging is the process of prioritizing digital evidence 
 
 ## Disk duplicator
 
-A disk duplicator, also known as a forensic duplicator, is a tool used in computer forensics investigations. It creates an exact copy of a storage device, preserving the integrity of the original data1. This process is sometimes referred to as bitwise duplication, sector copying, or physical imaging
+A disk duplicator, also known as a forensic duplicator, is a tool used in computer forensics investigations. It creates an exact copy of a storage device, preserving the integrity of the original data. This process is sometimes referred to as bitwise duplication, sector copying, or physical imaging
 
 Different options:
 
