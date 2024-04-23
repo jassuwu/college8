@@ -29,7 +29,7 @@
 **Engaging Data Audiences Interactively**
 
 - **Objective**: Create an interactive experience for the audience.
-- **Actions**: Allow users to explore data through interactive elements like filters, zooms, and custom views¹[1].
+- **Actions**: Allow users to explore data through interactive elements like filters, zooms, and custom views.
 - **Outcome**: An engaged audience that can personalize their data exploration and gain deeper insights.
 
 ## G - Give Meaning
@@ -38,7 +38,7 @@
 
 - **Objective**: Help the audience understand the significance of the data.
 - **Actions**: Link data to actions, use clear titles, labels, and annotations, and provide context through comparisons.
-- **Outcome**: Data that is meaningful and actionable for the audience, facilitating better decision-making²[2].
+- **Outcome**: Data that is meaningful and actionable for the audience, facilitating better decision-making.
 
 ## N - No Distortions
 
