@@ -19,8 +19,8 @@ Seasonal variation in a time series is a pattern of change that recurs regularly
 
 ## 3. Cyclical Variation
 
-Cyclical variations also exhibit recurring patterns but with a longer and more erratic timescale compared to seasonal variations. These cycles can be far from regular, and it is usually impossible to predict the duration of expansion or contraction periods. There is no guarantee of a regularly returning pattern. Examples include floods, wars, changes in interest rates, economic depressions or recessions, and changes in consumer spending.
+Cyclical variations also exhibit recurring patterns but with a longer and more erratic timescale compared to seasonal variations. These cycles can be far from regular, and it is usually impossible to predict the duration of expansion or contraction periods. There is no guarantee of a regularly returning pattern. Examples include real estate market, fashion trends, commodity prices.
 
 ## 4. Irregular Variation
 
-Irregular (or random) variation in a time series occurs over varying (usually short) periods. It follows no pattern and is inherently unpredictable. It usually occurs randomly and may be linked to events that also occur randomly. Irregular variation cannot be explained mathematically. If the variation cannot be accounted for by secular trend, season, or cyclical variation, then it is usually attributed to irregular variation. Examples include sudden changes in interest rates, collapse of companies, natural disasters, sudden shifts in government policy, dramatic changes to the stock market, and the effect of Middle East unrest on petrol prices.
+Irregular (or random) variation in a time series occurs over varying (usually short) periods. It follows no pattern and is inherently unpredictable. It usually occurs randomly and may be linked to events that also occur randomly. Irregular variation cannot be explained mathematically. If the variation cannot be accounted for by secular trend, season, or cyclical variation, then it is usually attributed to irregular variation. Examples include natural disasters, pandemics, technological innovations.
