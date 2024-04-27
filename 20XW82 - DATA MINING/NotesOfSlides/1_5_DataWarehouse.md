@@ -158,8 +158,6 @@ Data warehouses are modeled based on **dimensions** (which provide context for a
 - **Analytical Processing**: Multidimensional analysis of data warehouse data, supporting OLAP operations like slicing, dicing, drilling, and pivoting.
 - **Data Mining**: Discovery of knowledge from hidden patterns, supporting associations, analytical model construction, classification, prediction, and presentation of results through visualization tools.
 
-Sure, here are your notes in Markdown format:
-
 ## From On-Line Analytical Processing (OLAP) to On Line Analytical Mining (OLAM)
 
 ### Why Online Analytical Mining?
