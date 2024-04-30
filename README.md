@@ -1,4 +1,4 @@
-# college8
+# college8 [CLOSED]
 
 The Sem 8 repository.
 
